@@ -1,0 +1,95 @@
+.header{
+    width: 100%;
+    height: 100px;
+}
+.nav{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    margin-top: 5px;
+}
+.logo h1{
+    color: #030303;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    font-weight: 200;
+    z-index: 5;
+    margin-left: 50px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+.nav ul li a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+}
+
+.nav ul li a:hover{
+    font-size: 25px;
+}
+h2{
+    margin-top: 60px;
+}
+h2,p{
+    text-align: center;
+}
+.carousel-inner{
+    width: 100%;
+    height:300px;
+    background-color:  rgb(244, 241, 238);
+    margin-top:50px;
+}
+.carousel-itemactive,.carousel-item{
+    text-align: center;
+    margin-top: 100px;
+}
+h3{
+    
+    margin-top: 60px;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+
+#pic1,
+#pic2{
+    float: left;
+    width: 25%;
+    margin-left: 30px;
+}
+#pic2{
+    margin-left: 200px;
+}
+.clear {
+    clear: both;
+}
+h5,p{
+    text-align: center;
+}
+#int {
+    margin-left: 210px;
+    clear: both;
+    margin-top: 30px;
+}
+footer{
+    margin-top:400px ;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(244, 241, 238);
+    padding-top: 30px;
+}

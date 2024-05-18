@@ -1,0 +1,101 @@
+.header{
+    width: 100%;
+    height: 100px;
+}
+.nav{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    margin-top: 5px;
+}
+.logo h1{
+    color: #030303;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    font-weight: 200;
+    z-index: 5;
+    margin-left: 50px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+.nav ul li a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+}
+
+.nav ul li a:hover{
+    font-size: 25px;
+}
+h2{
+    margin-top: 60px;
+    text-align: center;
+}
+
+footer{
+    margin-top:20px ;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(244, 241, 238);
+    padding-top: 30px;
+}
+#cu{
+    height:250px;
+    width: 30%;
+   box-shadow: 4px 5px 10px ;
+   float: left;
+   margin-left: 30px;
+   text-align: center;
+   transition: transform 0.5s;
+}
+#cu:hover{
+    transform: scale(1.2);
+}
+#pri{
+    width: 100%;
+    height:500px;
+    margin-top:400px;
+    background-color: rgb(255, 253, 250);
+}
+#ba{
+    height:250px;
+    width: 30%;
+   box-shadow: 4px 5px 10px ;
+   float: left;
+   margin-left: 30px;
+   text-align: center;
+   background-color: white;
+   text-decoration: none;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    transition: transform 0.5s;
+}
+#ba:hover{
+    transform: scale(1.2);
+}
+#pri h2{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#ba button{
+    background-color: rgb(71, 71, 253);
+    border-radius: 8px;
+    border: none;
+}
+button:hover{
+    background-color: burlywood;
+}
